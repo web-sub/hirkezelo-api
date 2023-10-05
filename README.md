@@ -1,29 +1,45 @@
-# API routes with REST
+# Hírkezelő API - Készítette: Pavlik Dániel
 
-Next.js ships with [API routes](https://github.com/vercel/next.js#api-routes), which provide an easy solution to build your own `API`. This example shows how it can be used to create your [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) `API`.
+Ez a projekt a Budapest Közút Zrt. által kiírt fullstack fejlesztő pozíció előfeladatára készült.
 
-## Deploy your own
+## Telepítés
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/api-routes-rest)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/api-routes-rest&project-name=api-routes-rest&repository-name=api-routes-rest)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+A projekt telepítése
 
 ```bash
-npx create-next-app --example api-routes-rest api-routes-rest-app
+  git clone https://github.com/web-sub/hirkezelo-api.git hirkezelo-api
+  cd hirkezelo-api
 ```
+
+## Futtatás
+
+A projekt indításához az alábbi parancsot kell futtatni a hirkezelo-api mappában:
 
 ```bash
-yarn create next-app --example api-routes-rest api-routes-rest-app
+  docker compose up --build -d
 ```
 
-```bash
-pnpm create next-app --example api-routes-rest api-routes-rest-app
-```
+Miután a container-ek elindultak várni kell, amíg a next build lefut, utána a localhost:3000-en lesz elérhető a projekt.
 
-### Deploy to Vercel
+## Belépés, Token generálása
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+A kék "Bejelentkezés Google-el" gombra kattintva be tudunk jelentkezni az alkalmazásba google-el.
+
+Ezután a "Hozzáférési token másolása" gombra kattintva automatikusan a vágólapra másolódik a saját tokenünk.
+
+## Token használata azonosításra
+
+A kapott token használható azonosításra Bearer tokenként elküldve, illetve az url-ben ?token= paraméterként.
+
+## API műveletek
+
+A bal fent található dokumentáció gombra kattintva, vagy a localhost:3000/api-doc oldalon megtaláljuk az API végpontok dokumentációját, illetve interaktívan is tudjuk őket használni.
+
+## Készítette
+
+-   [@pavlik.daniel](https://www.github.com/web-sub)
+
+## Elérhetőségek
+
+-   email: email@pavlikdaniel.hu
+-   telefon: +36306257478
