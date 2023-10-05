@@ -1,0 +1,10 @@
+{
+    "editor.fontFamily": "'One Mono'",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.removeUnusedImports": false,
+        "source.organizeImports": false,
+        "source.fixAll": true
+      },
+      "editor.acceptSuggestionOnEnter": "on"
+}
