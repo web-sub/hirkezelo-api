@@ -1,6 +1,6 @@
 # Hírkezelő API - Készítette: Pavlik Dániel
 
-Ez a projekt a Budapest Közút Zrt. által kiírt fullstack fejlesztő pozíció előfeladatára készült.
+Ez a projekt a **Budapest Közút Zrt.** által kiírt fullstack fejlesztő pozíció felvételi feladatára készült.
 
 ## Telepítés
 
@@ -8,6 +8,7 @@ A projekt telepítése
 
 ```bash
   git clone https://github.com/web-sub/hirkezelo-api.git hirkezelo-api
+
   cd hirkezelo-api
 ```
 
@@ -19,21 +20,21 @@ A projekt indításához az alábbi parancsot kell futtatni a hirkezelo-api mapp
   docker compose up --build -d
 ```
 
-Miután a container-ek elindultak várni kell, amíg a next build lefut, utána a localhost:3000-en lesz elérhető a projekt.
+Miután a container-ek elindultak **várni kell, amíg a next build lefut**, utána a **localhost:3000-en lesz elérhető a projekt**.
 
 ## Belépés, Token generálása
 
-A kék "Bejelentkezés Google-el" gombra kattintva be tudunk jelentkezni az alkalmazásba google-el.
+A kék **"Bejelentkezés Google-el"** gombra kattintva be tudunk jelentkezni az alkalmazásba google-el.
 
-Ezután a "Hozzáférési token másolása" gombra kattintva automatikusan a vágólapra másolódik a saját tokenünk.
+Ezután a **"Hozzáférési token másolása"** gombra kattintva automatikusan a vágólapra másolódik a saját tokenünk.
 
 ## Token használata azonosításra
 
-A kapott token használható azonosításra Bearer tokenként elküldve, illetve az url-ben ?token= paraméterként.
+A kapott token használható azonosításra **Bearer tokenként** elküldve, illetve az **url-ben ?token= paraméterként**.
 
 ## API műveletek
 
-A bal fent található dokumentáció gombra kattintva, vagy a localhost:3000/api-doc oldalon megtaláljuk az API végpontok dokumentációját, illetve interaktívan is tudjuk őket használni.
+A bal fent található dokumentáció gombra kattintva, vagy a **localhost:3000/api-doc** oldalon megtaláljuk az **API végpontok dokumentációját**, illetve interaktívan is tudjuk őket használni.
 
 ## Készítette
 
