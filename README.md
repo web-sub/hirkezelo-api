@@ -26,12 +26,14 @@ A projekt indításához az alábbi parancsot kell futtatni a hirkezelo-api mapp
 ```
 
 Miután a container-ek elindultak **várni kell, amíg a next build lefut**, utána a **localhost:3000-en lesz elérhető a projekt**.
+![alt text](https://drive.google.com/uc?export=download&id=16WPqNFEXeRPrPzKatAsJ8Ggt0XiTz7Cx)
 
 ## Belépés, Token generálása
 
 A kék **"Bejelentkezés Google-el"** gombra kattintva be tudunk jelentkezni az alkalmazásba google-el.
 
 Ezután a **"Hozzáférési token másolása"** gombra kattintva automatikusan a vágólapra másolódik a saját tokenünk.
+![alt text](https://drive.google.com/uc?export=download&id=1SBZH9vOW2t3p2YksabgeGIfLSm5WdWw8)
 
 ## Token használata azonosításra
 
@@ -40,6 +42,8 @@ A kapott token használható azonosításra **Bearer tokenként** elküldve, ill
 ## API műveletek
 
 A bal fent található dokumentáció gombra kattintva, vagy a **localhost:3000/api-doc** oldalon megtaláljuk az **API végpontok dokumentációját**, illetve interaktívan is tudjuk őket használni.
+
+![alt text](https://drive.google.com/uc?export=download&id=1drkrjWyhP9nKEXWvkhSsZafqb_FYmK7-)
 
 ## Készítette
 
