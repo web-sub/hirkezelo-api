@@ -2,6 +2,11 @@
 
 Ez a projekt a **Budapest Közút Zrt.** által kiírt fullstack fejlesztő pozíció felvételi feladatára készült.
 
+## Előfeltételek a telepítéshez
+
+A gépen szükséges, hogy legyen **Docker** és **docker compose**.
+Windowson a **Docker Desktop** alkalmazást használtam erre a célra.
+
 ## Telepítés
 
 A projekt telepítése
